@@ -32,7 +32,7 @@
             this.btndo = new System.Windows.Forms.Button();
             this.btnfor = new System.Windows.Forms.Button();
             this.btnlimpar = new System.Windows.Forms.Button();
-            this.btnsair = new System.Windows.Forms.Button();
+            this.btnvoltar = new System.Windows.Forms.Button();
             this.lblnum = new System.Windows.Forms.Label();
             this.txtnum = new System.Windows.Forms.TextBox();
             this.lblresult = new System.Windows.Forms.Label();
@@ -79,15 +79,15 @@
             this.btnlimpar.UseVisualStyleBackColor = true;
             this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
-            // btnsair
+            // btnvoltar
             // 
-            this.btnsair.Location = new System.Drawing.Point(282, 312);
-            this.btnsair.Name = "btnsair";
-            this.btnsair.Size = new System.Drawing.Size(75, 23);
-            this.btnsair.TabIndex = 4;
-            this.btnsair.Text = "Voltar";
-            this.btnsair.UseVisualStyleBackColor = true;
-            this.btnsair.Click += new System.EventHandler(this.btnsair_Click);
+            this.btnvoltar.Location = new System.Drawing.Point(282, 312);
+            this.btnvoltar.Name = "btnvoltar";
+            this.btnvoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnvoltar.TabIndex = 4;
+            this.btnvoltar.Text = "Voltar";
+            this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.Click += new System.EventHandler(this.btnsair_Click);
             // 
             // lblnum
             // 
@@ -136,7 +136,7 @@
             this.Controls.Add(this.lblresult);
             this.Controls.Add(this.txtnum);
             this.Controls.Add(this.lblnum);
-            this.Controls.Add(this.btnsair);
+            this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btnfor);
             this.Controls.Add(this.btndo);
@@ -154,7 +154,7 @@
         private System.Windows.Forms.Button btndo;
         private System.Windows.Forms.Button btnfor;
         private System.Windows.Forms.Button btnlimpar;
-        private System.Windows.Forms.Button btnsair;
+        private System.Windows.Forms.Button btnvoltar;
         private System.Windows.Forms.Label lblnum;
         private System.Windows.Forms.TextBox txtnum;
         private System.Windows.Forms.Label lblresult;

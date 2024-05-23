@@ -10,11 +10,24 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form2 : Form
+    public partial class frmmenu : Form
     {
-        public Form2()
+        public frmmenu()
         {
             InitializeComponent();
+        }
+
+        private void fatoralToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            frmfatoral fatoral = new frmfatoral();
+            fatoral.Show();
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

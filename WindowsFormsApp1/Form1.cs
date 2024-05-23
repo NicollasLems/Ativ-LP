@@ -61,7 +61,9 @@ namespace WindowsFormsApp1
 
         private void btnsair_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            frmmenu menu = new frmmenu();
+            this.Hide();
+            menu.Show();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
